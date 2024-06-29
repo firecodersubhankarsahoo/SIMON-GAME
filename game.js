@@ -94,15 +94,16 @@ function startGame() {
   }
   
   function changeBackground() {
-      // Remove all background classes
-      for (var i = 0; i < backgroundClasses.length; i++) {
-          $("body").removeClass(backgroundClasses[i]);
-      }
-      
-      // Select a random background class
-      var randomIndex = Math.floor(Math.random() * backgroundClasses.length);
-      
-      // Add the random background class
-      $("body").addClass(backgroundClasses[randomIndex]);
-  }
+    // Remove all background classes
+    for (var i = 0; i < backgroundClasses.length; i++) {
+        $("body").removeClass(backgroundClasses[i]);
+    }
+    
+    // Select a random background class
+    var randomIndex = Math.floor(Math.random() * backgroundClasses.length);
+    
+    // Add the random background class
+    $("body").addClass(backgroundClasses[randomIndex]);
+}
+
   
